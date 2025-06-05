@@ -1,0 +1,132 @@
+body{
+    min-height: 100vh;
+    background-color: rgba(255, 250, 240);
+}
+
+@font-face {
+    font-family: 'Romaben';
+    src: url(../font/Romaben-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Reminder';
+    src: url(../font/Bounded-Variable.ttf);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.logo{
+    background: url("../img/logo.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    aspect-ratio: 2/1;
+    flex-grow: 0;
+    box-shadow: inset 2px 2px 5px rgba(172, 97, 191, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.nav{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    color: rgba(50, 20, 20);
+    flex-grow: 1;
+}
+
+.nav-item{
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Reminder';
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.bg-line{
+    background: url("../img/fon.jpg") no-repeat transparent;
+    background-size: cover;
+    aspect-ratio: 3/1;
+    width: 100%;
+    height: 250px;
+    margin: 25px 0;
+}
+.head{
+    text-align: center;
+    font-family: 'Reminder';
+    font-weight: 100;
+    font-size: calc(0.5rem + 5vw);
+    letter-spacing: 2rem;
+    color: rgb(50, 20, 20); 
+    text-shadow: 10px 5px 5px rgb(255, 255, 255);
+}
+
+.line{
+    display: flex;
+    margin: 25px auto;
+    width: 80vw;
+}
+.img1{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.text1{
+    color: rgba(50, 20, 20);
+    font-size: calc(0.5rem + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+}
+.img2{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+
+/* .text2{
+    color: rgba(50, 20, 20);
+    font-size: calc(0.5rem + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+} */
+
+.img2 img, .img1 img{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    width: 100%;
+    background-color: #9f8170;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav-item{
+    font-size: calc(0.2rem + 1vw);
+}
+
+.nav-item:hover{
+    text-shadow: 5px 5px 10px pink, 1px 1px 1px green;
+}
