@@ -75,6 +75,11 @@ header{
     margin: 25px auto;
     width: 80vw;
 }
+.line1{
+    display: flex;
+    margin: 25px auto;
+    width: 80vw;
+}
 .img1{
     object-fit: scale-down;
     flex: 1 1 50%;
@@ -90,12 +95,13 @@ header{
     flex: 1 1 50%;
 }
 
-/* .text2{
+.text{
     color: rgba(50, 20, 20);
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(1.5rem + 1vw);
+    font-family: 'Reminder';
     margin: 0px 10px 10px 20px;
     flex: 1 1 50%;
-} */
+}
 
 .img2 img, .img1 img{
     width: 100%;
