@@ -1,6 +1,24 @@
 @media (max-width:800px)
 {
+    .container1{
+        padding: 30px;
+    }
 
+    .container{
+        padding: 30px;
+    }
+
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .hamburger-menu{
+        display:flex !important;
+    }
+    .hamburger-menu{
+        display: none;
+    }
     .top-nav{
         display: flex !important;
     }
@@ -8,6 +26,12 @@
         display: none;
     }
     .line{
+
+        flex-direction: column-reverse;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+        .line1{
         flex-direction: column-reverse;
         border: 3px solid black;
         border-radius: 10px;
@@ -41,4 +65,5 @@
     .footer-nav-item{
         font-size: calc(0.5em+1vw);
     }   
+    
 }

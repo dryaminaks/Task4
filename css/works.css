@@ -1,6 +1,14 @@
-  body{
+body{
     min-height: 100vh;
     background-color: rgba(255, 250, 240);
+    margin: none;
+    font-family: none;
+    font-size: normal;
+    font-weight: none;
+    line-height: normal;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: none;
+    
 }
 
 @font-face {
@@ -13,7 +21,8 @@
     src: url(../font/Bounded-Variable.ttf);
 }
 
-.container{
+.container1{
+    margin: 8px;
     display: flex;
     flex-direction: column;
     flex:1 0 auto;
@@ -35,7 +44,7 @@ header{
     box-shadow: inset 2px 2px 5px rgba(172, 97, 191, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
 
-.nav{
+.nav1{
     display:flex;
     justify-content: right;
     align-items: center;
@@ -50,6 +59,20 @@ header{
     cursor: pointer;
     margin-left: 50px;
     font-weight: 100;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
 
 .bg-line{
@@ -136,45 +159,3 @@ header{
 .nav-item:hover{
     text-shadow: 5px 5px 10px pink, 1px 1px 1px green;
 }
-  
-  /* Стиль входных данных */
-  input[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #282727;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-  }
-  
-  input[type=submit] {
-	background-color: #151213;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-	background-color: #000000;
-  }
-  
-  /* Стиль раздела контейнер/контакт */
-
-  
-  /* Создайте два столбца, которые плавают рядом друг с другом */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    }
-  
-  /* Очистить поплавки после столбцов */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-
-  

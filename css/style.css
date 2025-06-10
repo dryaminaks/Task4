@@ -35,6 +35,8 @@ header{
     box-shadow: inset 2px 2px 5px rgba(172, 97, 191, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
 
+
+
 .nav{
     display:flex;
     justify-content: right;
@@ -94,6 +96,7 @@ header{
     object-fit: scale-down;
     flex: 1 1 50%;
 }
+
 
 .text{
     color: rgba(50, 20, 20);
